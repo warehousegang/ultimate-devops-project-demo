@@ -11,8 +11,7 @@ x-default-logging: &logging
 networks:
   default:
     name: opentelemetry-demo
-    driver: bridge #creates a bridge network, which is a private internal network on the host machine. Each container for a service joins the default network and is able to communicate with other containers in the same network.
-
+    driver: bridge #creates a bridge network
 services:
   # ******************
   # Core Demo Services
