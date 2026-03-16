@@ -11,7 +11,7 @@ x-default-logging: &logging
 networks:
   default:
     name: opentelemetry-demo
-    driver: bridge #creates a bridge network for
+    driver: bridge #creates a bridge network for demo
 services:
   # ******************
   # Core Demo Services
